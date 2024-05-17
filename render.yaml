@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: animaxfree # Name of the service
+    env: next.js
+    repo: https://github.com/Solozip/animaxfree.git
+    plan: free
+    branch: main
+    envVars:
+      - key: PORT
+        value: 3000
